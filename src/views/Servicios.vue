@@ -6,13 +6,15 @@
         <div class="content">
             <div class="text-h4 q-mb-sm">Centro de Formación SENA</div>
             <p style="max-width: 500px;">
-                ñ
+                Consulta aquí la información de los servicios de bienestar disponibles
+                para la comunidad SENA: horarios de atención, teléfonos de contacto y
+                encargados de cada área. Usa el menú lateral para navegar entre ellos.
             </p>
         </div>
     </q-page>
 </template>
 
-<style>
+<style scoped>
 .img-background {
     position: absolute;
     inset: 0;

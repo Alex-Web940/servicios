@@ -3,8 +3,8 @@
         <div class="img-background"></div>
         <div class="semi-transparente"></div>
 
-        <div class="content">
-            <div class="text-h4 q-mb-lg">Bienestar</div>
+        <div class="content q-mx-auto" style="width: 60%;">
+            <div class="text-h2 text-center q-mb-lg">Bienestar</div>
 
             <q-tabs v-model="tab" class="text-white" indicator-color="white" active-color="white">
                 <q-tab name="descripcion" label="Descripción"/>
@@ -21,7 +21,6 @@
                         actividad física, el aprovechamiento del tiempo libre y las expresiones artísticas como parte de
                         la formación integral. Además, brinda apoyos socioeconómicos como sostenimiento, alimentación,
                         transporte y medios tecnológicos, junto con monitorías y espacios para fortalecer el liderazgo.
-
                     </p>
                 </q-tab-panel>
 
@@ -30,27 +29,28 @@
                     <div class="text-subtitle2 q-mb-xs">
                         <q-icon name="schedule" class="q-mr-xs" />Horario de atención
                     </div>
-                    <q-markup-table flat class="q-mb-lg" style="background: transparent;">
+                    <q-markup-table flat bordered class="q-mb-lg text-white" style="background: transparent;">
+                        <thead>
+                            <tr>
+                                <th class="text-left">Día</th>
+                                <th class="text-right">Horario</th>
+                            </tr>
+                        </thead>
                         <tbody>
-                            <tr>
-                                <td class="text-white">Lunes a viernes</td>
-                                <td class="text-white text-right">07:30 a.m. - 12:00 p.m. , 02:00 p.m. - 06:00 p.m.</td>
-                            </tr>
-                            <tr>
-                                <td class="text-white">Sábados</td>
-                                <td class="text-white text-right">cerrado</td>
-                            </tr>
-                            <tr>
-                                <td class="text-white">Domingos y festivos</td>
-                                <td class="text-white text-right">Cerrado</td>
-                            </tr>
+                            <tr><td>Lunes</td><td class="text-right">07:30 a.m. - 12:00 p.m.</td></tr>
+                            <tr><td>Martes</td><td class="text-right">07:30 a.m. - 12:00 p.m.</td></tr>
+                            <tr><td>Miércoles</td><td class="text-right">07:30 a.m. - 12:00 p.m.</td></tr>
+                            <tr><td>Jueves</td><td class="text-right">07:30 a.m. - 12:00 p.m.</td></tr>
+                            <tr><td>Viernes</td><td class="text-right">07:30 a.m. - 12:00 p.m.</td></tr>
+                            <tr><td>Sábado</td><td class="text-right">Cerrado</td></tr>
+                            <tr><td>Domingo y festivos</td><td class="text-right">Cerrado</td></tr>
                         </tbody>
                     </q-markup-table>
 
                     <div class="text-subtitle2 q-mb-xs">
                         <q-icon name="call" class="q-mr-xs" />Teléfono de contacto
                     </div>
-                    <p class="q-mb-lg">+57 3176377670</p>
+                    <p class="q-mb-lg">+57 317 637 7670</p>
 
                     <div class="text-subtitle2 q-mb-xs">Encargado de atención</div>
                     <q-card flat bordered class="bg-white text-dark q-pa-md">
@@ -60,7 +60,7 @@
                             </q-avatar>
                             <div>
                                 <div class="text-weight-medium">Maria Delea Arenas Mejía</div>
-                                <div class="text-caption text-grey-8">Coordinador de Bienestar</div>
+                                <div class="text-caption text-grey-8">Coordinadora de Bienestar</div>
                                 <div class="text-caption text-primary">mdarenas@sena.edu.com</div>
                             </div>
                         </div>
@@ -73,11 +73,11 @@
     </q-page>
 </template>
 
-<style>
+<style scoped>
 .img-background {
     position: absolute;
     inset: 0;
-    background-image: url('../assets/ini-sena.png');
+    background-image: url('../assets/bienestar-aprendiz.jpeg');
     background-size: cover;
     background-position: center;
     filter: blur(3px);
@@ -94,6 +94,23 @@
     z-index: 1;
     padding: 24px;
     color: white;
+}
+
+.text-subtitle2 {
+    font-size: 18px !important;
+}
+
+.q-markup-table td,
+.q-markup-table th {
+    font-size: 16px !important;
+}
+
+.text-caption {
+    font-size: 15px !important;
+}
+
+p {
+    font-size: 16px;
 }
 </style>
 

@@ -32,13 +32,9 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-img src="./assets/logo-footer.png" style="height: 40px; width: 65px" />
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-footer>
+     <footer class="bg-grey-8 text-white q-pa-md flex flex-center">
+      <q-img src="./assets/logo-footer.png" style="height: 40px; width: 65px" />
+    </footer>
 
   </q-layout>
 </template>
