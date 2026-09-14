@@ -6,14 +6,12 @@
         <div class="content q-mx-auto" style="width: 60%;">
             <div class="text-h2 text-center q-mb-lg">Enfermería</div>
 
-            <q-tabs v-model="tab" class="text-white q-ma-md" indicator-color="white" active-color="white">
-                <q-tab name="descripcion" label="Descripción" />
-                <q-tab name="detalles" label="Detalles" />
-            </q-tabs>
+            <div  class="bg-transparent  text-white ">
 
-            <q-tab-panels v-model="tab" class="bg-transparent  text-white ">
-
-                <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
+                <div class="q-pa-lg background text-center q-mb-md">
+                    <div class="q-mb-md text-subtitle1">
+                    <q-icon name="description" size="25px" class="q-pb-xs" /> Descripcion
+                    </div>
                     <p>
                         Ofrece servicios orientados a la promoción de la salud y la prevención de enfermedades, mediante
                         acciones educativas y de orientación que buscan fomentar hábitos saludables y el cuidado
@@ -27,9 +25,7 @@
                         la salud.
 
                     </p>
-                </q-tab-panel>
-
-                <q-tab-panel name="detalles">
+                </div>
 
                     <div class="glass-card q-pa-md q-mb-md">
                         <div class="text-subtitle2 q-mb-sm text-center">
@@ -108,10 +104,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </q-tab-panel>
-
-            </q-tab-panels>
+            <q-page-container/>
         </div>
     </q-page>
 </template>
@@ -220,8 +215,3 @@ p {
     object-fit: cover;
 }
 </style>
-
-<script setup>
-import { ref } from 'vue';
-const tab = ref('descripcion')
-</script>
