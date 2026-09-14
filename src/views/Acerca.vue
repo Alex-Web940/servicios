@@ -42,21 +42,25 @@
                     a la conformación y operación de un sistema regional de formación profesional integral.
                 </p>
             </div>
+        
+            <div class="glass-card style-card q-pa-md text-white">
+                <div class="text-subtitle1 text-weight-bold q-mb-md text-center">
+                    <q-icon size="25px" name="code" class="q-mr-sm" />Equipo desarrollador
+                </div>
 
-            <div class="text-h4 q-mb-md text-white">Equipo desarrollador</div>
-            <div class="row q-col-gutter-md justify-center">
-                <div class="col-12 col-sm-6 col-md-4" v-for="(dev, i) in equipo" :key="i">
-                    <div class="glass-card q-pa-md text-center dev-card">
-                        <q-avatar size="70px">
-                            <img src="../assets/descarga.jpg" alt="">
-                        </q-avatar>
-                        <div class="text-weight-medium q-mt-sm text-white">{{ dev.nombre }}</div>
-                        <div class="text-caption dev-role">{{ dev.rol }}</div>
+                <div class="row q-col-gutter-md justify-center">
+                    <div class="col-12 col-sm-6" v-for="(dev, i) in equipo" :key="i">
+                        <div class="column items-center q-mb-md">
+                            <div class="profile-photo">
+                                <img src="../assets/descarga.jpg">
+                            </div>
+                            <div class="text-weight-medium q-mt-sm" style="font-size: 15px;">{{ dev.nombre }}</div>
+                            <div class="text-caption dev-role" style="opacity: 0.90; font-size: 18px;">{{ dev.rol }}</div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-        </div>
+</div>
     </q-page>
 </template>
 
@@ -101,5 +105,23 @@ const equipo = [
 
 .dev-role {
     color: rgba(255, 255, 255, 0.75) !important;
+}
+.style-card{
+    max-width: 45%;
+    margin: 0 auto;
+}
+.profile-photo {
+    width: 121px;
+    height: 120px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 </style>

@@ -11,13 +11,13 @@
 
           <q-space/>
 
-          <q-avatar>
-            <img alt="logo" src="./assets/logosena.png">
+          <q-avatar size="55px" class="q-mr-md">
+            <img alt="logo" src="./assets/logo-footer.png" style="object-fit: cover;">
           </q-avatar>
       </q-toolbar>
-    </q-header>
+    </q-header> 
 
-    <q-drawer v-model="leftDrawerOpen" side="left" overlay behavior="mobile" bordered>
+    <q-drawer v-model="leftDrawerOpen" side="left" overlay behavior="mobile" bordered class="bg-accent">
       <q-list>
         <q-item v-for="(menuItem, index) in menuList" :key="index" clickable v-ripple :to="menuItem.to"
           exact-active-class="bg-green text-white">

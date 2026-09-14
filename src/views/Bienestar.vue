@@ -15,13 +15,20 @@
 
                 <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
                     <p>
-                        Bienestar al Aprendiz es una estrategia institucional que busca contribuir a la permanencia de
-                        los aprendices en su proceso formativo, promoviendo la cultura, la inclusión, la salud física
-                        y mental y el fortalecimiento de habilidades para la vida. También fomenta el deporte, la
-                        actividad física, el aprovechamiento del tiempo libre y las expresiones artísticas como parte
-                        de la formación integral. Además, brinda apoyos socioeconómicos como sostenimiento,
-                        alimentación, transporte y medios tecnológicos, junto con monitorías y espacios para
-                        fortalecer el liderazgo.
+                        Bienestar al Aprendiz es una estrategia institucional orientada a promover el desarrollo
+                        integral de los aprendices y contribuir a su permanencia y bienestar durante el proceso
+                        formativo. Para ello, desarrolla acciones relacionadas con la salud física y mental, la cultura,
+                        la inclusión, el deporte, la actividad física, el aprovechamiento adecuado del tiempo libre y
+                        las expresiones artísticas.
+
+                        También brinda acompañamiento y orientación en diferentes situaciones que pueden influir en el
+                        desempeño y la permanencia de los aprendices, fortaleciendo habilidades para la vida, la
+                        convivencia, el liderazgo y la participación. De igual manera, ofrece apoyos socioeconómicos
+                        como sostenimiento, alimentación, transporte y medios tecnológicos, de acuerdo con los programas
+                        y condiciones establecidos. Además, promueve espacios de participación, monitorías y actividades
+                        que favorecen el desarrollo de competencias personales y sociales, contribuyendo a una formación
+                        integral y a mejores condiciones para el cumplimiento del proceso formativo.
+
                     </p>
                 </q-tab-panel>
 

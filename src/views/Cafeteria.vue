@@ -15,10 +15,16 @@
 
                 <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
                     <p>
-                        Ofrece servicios de venta y atención al cliente relacionados con alimentos, brindando
-                        productos preparados y de calidad a aprendices, instructores y demás integrantes de la
-                        comunidad SENA. También promueve una atención amable, eficiente y orientada a satisfacer las
-                        necesidades de los usuarios.
+                        Ofrece servicios de venta y atención al cliente relacionados con alimentos, proporcionando
+                        productos preparados y de calidad a los aprendices, instructores y demás integrantes de la
+                        comunidad SENA. Su función es facilitar el acceso a diferentes opciones de alimentación durante
+                        las jornadas de formación, atendiendo las necesidades de los usuarios de manera oportuna.
+
+                        Además, promueve una atención amable, eficiente y respetuosa, orientada a brindar una buena
+                        experiencia al usuario. También busca mantener condiciones adecuadas de higiene, organización y
+                        manipulación de los alimentos, contribuyendo a la calidad del servicio y al bienestar de la
+                        comunidad.
+
                     </p>
                 </q-tab-panel>
 

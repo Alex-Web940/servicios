@@ -15,11 +15,17 @@
 
                 <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
                     <p>
-                        Se apoya la gestión de novedades de los aprendices de formación titulada, incluyendo retiros,
-                        deserciones y aplazamientos. También se brinda apoyo en la programación de instructores y en
-                        la logística de los ambientes de formación. Además, se verifica que los ambientes se
-                        encuentren en óptimas condiciones para garantizar el adecuado desarrollo de las actividades
-                        formativas.
+                        Se brinda apoyo en la gestión y seguimiento de las novedades de los aprendices de formación
+                        titulada, incluyendo procesos relacionados con retiros, deserciones y aplazamientos,
+                        contribuyendo a mantener actualizada la información y facilitar el desarrollo adecuado de los
+                        procesos académicos y administrativos.
+
+                        También se apoya la programación y organización de los instructores, así como la logística de
+                        los ambientes de formación, procurando una adecuada distribución y disponibilidad de los
+                        espacios y recursos necesarios. Además, se realiza seguimiento a las condiciones de los
+                        ambientes de formación, verificando que se encuentren organizados, disponibles y en condiciones
+                        adecuadas para garantizar el desarrollo eficiente de las actividades formativas.
+
                     </p>
                 </q-tab-panel>
 

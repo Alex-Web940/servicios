@@ -1,7 +1,6 @@
 <template>
     <q-page style="position: relative; overflow: hidden;">
 
-        <!-- Hero / Presentación -->
         <div class="hero">
             <div class="img-background"></div>
             <div class="semi-transparente"></div>
@@ -14,15 +13,16 @@
                 <div class="text-subtitle1 q-mt-sm hero-subtitle">
                     Servicios de bienestar para toda la comunidad
                 </div>
-                <p class="hero-text q-mt-md">
-                    Consulta aquí la información de los servicios de bienestar disponibles para la
-                    comunidad SENA: horarios de atención, teléfonos de contacto y encargados de cada
-                    área. Selecciona una tarjeta para conocer más.
+                <p class="hero-text q-mt-md background">
+                    Consulta aquí la información sobre los diferentes servicios disponibles para aprendices,
+                    instructores y demás integrantes de la comunidad SENA. Conoce los servicios ofrecidos, sus
+                    funciones, horarios de atención, datos de contacto y responsables de cada área. Selecciona una
+                    tarjeta para conocer más información.
                 </p>
             </div>
         </div>
 
-        <!-- Cards de servicios -->
+
         <div class="services-section">
             <div class="text-h5 text-center text-weight-medium q-mb-lg">Nuestros servicios</div>
 
@@ -129,7 +129,9 @@ const services = [
     max-width: 640px;
     padding: 32px 16px;
 }
-
+.background {
+    background: radial-gradient(ellipse, rgba(40, 40, 40, 0.61), rgba(40, 40, 40, 0.41), rgba(40, 40, 40, 0.19), rgba(40, 40, 40, 0.00));
+}
 .hero-avatar {
     background: rgba(255, 255, 255, 0.9);
     padding: 6px;
@@ -140,7 +142,7 @@ const services = [
 }
 
 .hero-text {
-    opacity: 0.85;
+    opacity: 0.90;
     font-size: 15px;
     line-height: 1.5;
 }

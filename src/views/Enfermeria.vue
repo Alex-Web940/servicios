@@ -15,9 +15,17 @@
 
                 <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
                     <p>
-                        Ofrece servicios de promoción y prevención de enfermedades, así como atención básica en primeros
-                        auxilios. Estos servicios buscan contribuir al cuidado y bienestar de los aprendices y demás
-                        integrantes de la comunidad SENA.
+                        Ofrece servicios orientados a la promoción de la salud y la prevención de enfermedades, mediante
+                        acciones educativas y de orientación que buscan fomentar hábitos saludables y el cuidado
+                        integral de la comunidad. También brinda atención básica en primeros auxilios ante situaciones
+                        que puedan presentarse durante las actividades formativas.
+
+                        Estos servicios tienen como finalidad contribuir al bienestar físico de los aprendices y demás
+                        integrantes de la comunidad SENA, promoviendo el autocuidado, la prevención de riesgos y la
+                        atención oportuna ante situaciones que requieran una primera intervención. Además, se brinda
+                        orientación para favorecer prácticas saludables y fortalecer el conocimiento sobre el cuidado de
+                        la salud.
+
                     </p>
                 </q-tab-panel>
 
@@ -67,7 +75,6 @@
                         </q-markup-table>
                     </div>
 
-                    <!-- Encargada -->
                     <!-- Encargada -->
                     <div class="glass-card q-pa-md">
                         <div class="text-subtitle1 text-weight-bold q-mb-md text-center">

@@ -15,10 +15,16 @@
 
                 <q-tab-panel name="descripcion" class="q-pa-lg background text-center">
                     <p>
-                        La biblioteca ofrece servicios como consultas en sala, préstamos a domicilio e
-                        interbibliotecarios (PIP), además de talleres de lectura y capacitaciones. También brinda
-                        acceso a las TIC, asesorías para la búsqueda de información y orientación sobre el uso
-                        adecuado del catálogo bibliográfico.
+                        La biblioteca ofrece servicios de consulta en sala, préstamos a domicilio e interbibliotecarios
+                        (PIP), facilitando el acceso a diferentes recursos bibliográficos y materiales de apoyo para los
+                        procesos de formación. También brinda acceso a las Tecnologías de la Información y la
+                        Comunicación (TIC), recursos digitales y bases de datos para apoyar la búsqueda y consulta de
+                        información. Además, proporciona asesorías para la búsqueda, selección y recuperación de
+                        información, así como orientación sobre el uso adecuado del catálogo bibliográfico. Complementa
+                        estos servicios con talleres de lectura, capacitaciones y actividades de formación que
+                        fortalecen las competencias de los usuarios en el manejo de la información y contribuyen al
+                        aprendizaje autónomo, la investigación y el desarrollo académico.
+
                     </p>
                 </q-tab-panel>
 
